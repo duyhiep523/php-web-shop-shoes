@@ -1,0 +1,55 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: auto;
+}
+
+#form-login {
+    width: 500px;
+    height: 400px;
+}
+
+#form-login h1 {
+    color: #0A4D68;
+
+
+}
+
+.login-opa {
+    opacity: 0.6;
+}
+
+#form-login input {
+    height: 48px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#form-login input:focus {
+    opacity: 1;
+}
+
+#form-login p {
+    color: #EDF1D6;
+
+}
+
+.hide {
+    top: 26%;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* #form-login #forgot {
+    text-decoration: none;
+    color: aliceblue;
+} */

@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: auto;
+}
+
+#form-resgister {
+    width: 500px;
+    height: 400px;
+}
+
+#form-resgister input {
+    border-radius: 20px;
+}
+
+#form-resgister .form-floating {
+    position: relative;
+}
+
+#form-resgister .form-floating p {
+    position: absolute;
+    top: 30%;
+    right: 20px;
+}
+
+#form-resgister .form-floating input[type="password"] {
+    width: 230px;
+}
+
+#form-resgister h1 {
+    color: #0A4D68;
+}
+
+#form-resgister .pass {
+    display: flex;
+    justify-content: space-between;
+}
+
+#form-resgister .data {
+    opacity: 0.6;
+}
+
